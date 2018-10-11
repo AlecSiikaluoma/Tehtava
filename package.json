@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "npm install && cd react && npm install && cd .. && cd server && npm install",
+    "install-react": "cd react && npm install",
+    "install-node": "cd server && npm install",
     "react": "cd react && npm start",
     "server": "cd server && npm start",
     "start": "concurrently --kill-others \"npm run react\" \"npm run server\""
