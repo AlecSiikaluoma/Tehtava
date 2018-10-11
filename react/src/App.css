@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card-img-top {
+  height: 225px; 
+  width: 100%;
+  display: block;
+}
+
+.movie-year {
+  font-size: 13px;
+}
+
+.movie-img-top {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.movies-list {
+  margin-top: 20px;
+}
+
+.movie-average-rating {
+  margin-top: 8px;
+}
+
+.average {
+  position: relative;
+  margin-top: 10px;
+}
+
+.average-star {
+  color: transparent;
+}
+
+.average-star:before {
+  color: gold;
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.preview-description {
+  text-align: left;
+}
+
+.text-muted > span {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.review-movie {
+  background-color: #f7f7f7;
+}
+
+.review-movie > .container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.review > h5, h3 {
+  margin-bottom: 20px;
+}
+
+.review-movie-img {
+  padding: 15px;
+  max-width: 100%;
+  height: auto;
+  padding-right: 0px;
+  max-height: 500px;
+}
+
+.review-movie-info {
+  padding: 15px;
+  padding-right: 30px;
+}
+
+.review-form {
+  text-align: left;
+}
+
+.review-movie-card {
+  text-align: left;
+}
+
+.review-average-rating {
+  margin-bottom: 15px;
+}
+
+.your-review {
+  background-color: #f8f9fa;
+}
+
+.your-review > .card-body > h5 {
+  margin-bottom: 20px;
+}
+
+.your-review > .card-body > .rating {
+  text-align: left;
+  font-size: 23px;
+}
+
+.user-reviews {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.user-reviews .back-btn {
+  margin-bottom: 20px;
+}
+
+.review-form {
+  margin-top: 20px;
+}
+
+.review-rating {
+  text-align: left;
+}
+
+.back-btn {
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+.review-btn {
+  margin-top:8px;
+}
+
+.review-movie {
+  max-width: 100%;
+}
+
+.user-review > .unactive-rating {
+  text-align: left;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > .colored {
+  color: transparent;
+}
+
+
+.rating > .colored:before {
+  color: gold;
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.rating > .not-colored {
+    color: gold;
+}
+
+.rating > .not-colored:before {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
+
+.unactive-rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+
+.unactive-rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.unactive-rating > .colored {
+  color: transparent;
+}
+
+
+.unactive-rating > .colored:before {
+  color: gold;
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.unactive-rating > .not-colored {
+    color: gold;
+}
+
+.unactive-rating > .not-colored:before {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}

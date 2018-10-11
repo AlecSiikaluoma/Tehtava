@@ -1,0 +1,45 @@
+[{
+	"title": "The Predator",
+	"year": 2018,
+	"director": "Shane Black",
+	"length": 107,
+	"img": "/movie-images/predator.jpg",
+	"description": "When a young boy accidentally triggers the universe's most lethal hunters' return to Earth, only a ragtag crew of ex-soldiers and a disgruntled scientist can prevent the end of the human race."
+},{
+	"title": "Inception",
+	"year": 2010,
+	"director": "Christopher Nolan",
+	"length": 148,
+	"img": "/movie-images/inception.jpg",
+	"description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+},
+{
+	"title": "Interstellar",
+	"year": 2014,
+	"director": "Christopher Nolan",
+	"length": 169,
+	"img": "/movie-images/4.jpg",
+	"description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+},
+{
+	"title": "Doctor Strange",
+	"year": 2016,
+	"director": "Scott Derrickson",
+	"length": 115,
+	"img": "/movie-images/doctorstrange.jpg",
+	"description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
+},
+{
+	"title": "Thor: Ragnarök",
+	"year": 2017,
+	"director": "Taika Waititi",
+	"length": 130,
+	"img": "/movie-images/thorragnarok.jpg",
+	"description": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela."
+},{
+	"title": "Batman v Superman: Dawn of Justice",
+	"year": 2016,
+	"director": "Zack Snyder",
+	"length": 151,
+	"description": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs."
+}]
